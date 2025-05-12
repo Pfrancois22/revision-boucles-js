@@ -1,0 +1,22 @@
+body {
+    background-color: #547678;
+}
+
+.container{
+    background-color: rgba(220, 220, 220, 0.594);
+    height: 50vh;
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 1px 1px 3px rgb(111, 111, 109);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}

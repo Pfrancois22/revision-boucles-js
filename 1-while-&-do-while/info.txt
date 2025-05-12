@@ -1,0 +1,3 @@
+la boucle while ==> tant que
+
+tant que la conditionest vrais alors je fais
