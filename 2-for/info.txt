@@ -1,0 +1,21 @@
+je veux afficher toutes les lettres d'une phrase
+const phrase = "je suis dieu !"
+
+si je veux afficher une seul lettre je fais :
+console.log(phrase[9]);
+ce qui va m'afficher en console la lettre "d"
+
+avec une boucle while je devrais faire :
+
+const container = document.querySelector(".container"); // pour selectionner le container en js
+const phrase = "je suis dieu !"; // la phrase à découper et à afficher
+
+let i = 0; // valeur de début de l'incrémentation (un tableau commence toujours à 0)
+let taille = phrase.length; // une constante pour définir la longeur de mon tableau (length finde tableau)
+while (i < taille) { // i plus petit que la longeur de mon tableau
+    const p = document.createElement("p"); // je créer un élément "p" dans mon container pour avoir une zone d'affichage
+    container.appendChild(p); // je dis que mon"p" est un enfant de "container"
+    console.log(phrase[i]);
+    i++; // j'incrémente au pas de 1
+    p.textContent=`${i}` // j'affiche la valeur de "i" dans "p"
+}
