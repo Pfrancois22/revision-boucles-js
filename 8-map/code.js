@@ -30,32 +30,38 @@
 
 // MAP SERS AVANT TOUT A EXTRAIRE DES DONNEES D UNGRAND TABLEAU
 
-const datas = [
-    {
-        titre: "Ideologue",
-        age: 61,
-        nom: "François",
-        salaire: 1600
-    },
-    {
-        titre: "Chef de projet",
-        age: 28,
-        nom: "Miguel",
-        salaire: 2800
-    },
-    {
-        titre: "Infographiste",
-        age: 36,
-        nom: "Lise",
-        salaire: 1450
-    },
-    {
-        titre: "DevData",
-        age: 26,
-        nom: "Etienne",
-        salaire: 1800
-    }
-]
+// const datas = [
+//     {
+//         titre: "Ideologue",
+//         age: 61,
+//         nom: "François",
+//         salaire: 1600
+//     },
+//     {
+//         titre: "Chef de projet",
+//         age: 28,
+//         nom: "Miguel",
+//         salaire: 2800
+//     },
+//     {
+//         titre: "Infographiste",
+//         age: 36,
+//         nom: "Lise",
+//         salaire: 1450
+//     },
+//     {
+//         titre: "DevData",
+//         age: 26,
+//         nom: "Etienne",
+//         salaire: 1800
+//     }
+// ]
 
-let nameList = datas.map(name => name.nom);
-console.log(nameList);
+// let nameList = datas.map(name => name.nom);
+// console.log(nameList);
+
+
+const nb = [1,4,9,16];
+const map1 = nb.map(i => i * 2);
+console.log(map1);
+
